@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: lib/gson-2.8.2.jar
+
+
