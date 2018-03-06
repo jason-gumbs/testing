@@ -49,7 +49,7 @@ public class Testing extends HttpServlet {
 		        Gson gson = new Gson(); 
 		        JsonObject myObj = new JsonObject();
 
-		        register countryInfo =  getSchedule("hey");
+		        register countryInfo =  getSchedule(search);
 		        JsonElement countryObj = gson.toJsonTree(countryInfo);
 		        if(countryInfo.getDescription() == null){
 		            myObj.addProperty("success", false);
