@@ -1,6 +1,6 @@
 # testing
 
-##Getting Started
+## Getting Started
 
 start the application from index.html 
 
